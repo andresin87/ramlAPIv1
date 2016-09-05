@@ -1,0 +1,15 @@
+#%RAML 0.8
+---
+title: Testing RAMLAPI
+documentation:
+  - title: Testing RAMLAPI
+    content: Testing RAMLAPI RAML API description and Schema validations.
+baseUri: https://localhostAPI.com/{version}
+version: vv1
+mediaType: application/json
+protocols: [ HTTPS ]
+
+schemas:
+  - Accepted: !include schema/accepted-full.json
+/acceptances:
+  !include raml/acceptances.raml
