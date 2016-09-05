@@ -2,6 +2,9 @@
   "name": "raml-ap-iv-1",
   "description": "Testing RAMLAPI RAML API description and Schema validations.",
   "version": "1.0.0",
+  "scripts": {
+    "run": "gulp && osprey -f raml-ap-iv-1-v1.raml -p 3000 -a localhost:8080"
+  }
   "dependencies": {
     "async": "^1.4.0",
     "gulp": "^3.9.0",
