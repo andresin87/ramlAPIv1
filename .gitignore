@@ -27,3 +27,7 @@ build/Release
 node_modules
 *.sublime-*
 public
+
+# Webstorm
+.idea
+.idea/workspace.xml
